@@ -8,7 +8,7 @@ const Navbar = () => {
     " bg-gradient-to-b from-red-500 to-red-800  bg-clip-text text-transparent";
 
   return (
-    <div className="w-full h-full  fixed">
+    <nav className="w-full h-full  fixed">
       <div className="flex py-6 bg-gradient-to-r from-gray-950 to-slate-800 md:justify-start">
         <img
           src="start.svg"
@@ -25,8 +25,7 @@ const Navbar = () => {
             Watch & Burn
           </h2>
         </div>
-        <div className="flex w-full justify-center items-center gap-3 md:hidden mt-8 ">
-          <RxHamburgerMenu size={25} color="white" />
+        <div className="flex w-full justify-end items-center gap-3 md:hidden mt-8 mr-4 ">
           <HiOutlineSearch size={25} color="white" />
           <CgProfile size={25} color="white" />
         </div>
@@ -45,7 +44,7 @@ const Navbar = () => {
           </form>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
