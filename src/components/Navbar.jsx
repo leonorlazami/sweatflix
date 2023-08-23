@@ -50,6 +50,7 @@ const Navbar = ({ query, showSearch, handleQuery, handleShowSearch }) => {
                 type="text"
                 placeholder="Search..."
                 className="text-center h-1/2 px-0 border-none outline-none py-1 overflow-hidden	"
+                onChange={handleQuery}
               />
               <button className="ml-1 absolute m">
                 <HiOutlineSearch size={30} color="black" />

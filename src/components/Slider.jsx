@@ -13,7 +13,7 @@ const Slider = ({ shows, slides }) => {
           <img
             src={tvShow.image_thumbnail_path}
             alt={tvShow.name}
-            className="w-full h-48 object-cover md:h-full md:mt-40 cursor-pointer"
+            className="w-full h-48 object-cover md:h-72 md:max-h-72 md:mt-40 cursor-pointer"
           />
           <div className="flex flex-col items-center text-center overflow-hidden">
             <span className="whitespace-no-wrap">{tvShow.name}</span>{" "}

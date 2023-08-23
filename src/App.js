@@ -1,11 +1,8 @@
 import { useEffect, useState } from "react";
 import Home from "./components/Home";
-
 import Navbar from "./components/Navbar";
 import { debounce } from 'lodash';
-import tempShows from './mock.json'
-
-
+import tempShows from './mock.json';
 
 function App() {
   const [query, setQuery] = useState(null);
@@ -13,19 +10,23 @@ function App() {
   const [movies, setMovies] = useState(tempShows);
   const [abortController, setAbortController] = useState(null);
 
-
   function handleShowSearch() {
     setShowSearch((prev) => !prev);
   }
+  const debouncedHandleShowSearch = debounce(() => {
+    handleShowSearch();
+  }, 2000);
+
+
+  const debouncedHandleQuery = debounce((value) => {
+    setQuery(value);
+  }, 300);
+
   function handleQuery(e) {
-    setQuery(e.target.value);
-
-
+    const value = e.target.value;
+    debouncedHandleQuery(value);
+    debouncedHandleShowSearch()
   }
-
-
-
-
 
   useEffect(
     function () {
@@ -60,14 +61,12 @@ function App() {
 
       fetchMovies();
 
-
       return function () {
         newAbortController.abort();
       };
     },
     [query]
   );
-
 
   return (
     <div>
@@ -78,8 +77,6 @@ function App() {
         handleShowSearch={handleShowSearch} />
 
       <Home shows={movies} query={query} />
-
-
     </div>
   );
 }
