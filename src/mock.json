@@ -1,80 +1,106 @@
-[
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/8I37NtDffNV7AZlDa7uDvvqhovU.jpg",
-    "title": "Avatar: The Way of Water",
-    "subTitle": "Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure.",
-    "interval": 1500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/bQXAqRx2Fgc46uCVWgoPz5L5Dtr.jpg",
-    "title": "Black Adam",
-    "subTitle": "Nearly 5,000 years after he was bestowed with the almighty powers of the Egyptian gods—and imprisoned just as quickly—Black Adam is freed from his earthly tomb, ready to unleash his unique form of justice on the modern world.",
-    "interval": 500
-  },
-  {
-    "image": "https://www.themoviedb.org/t/p/w1920_and_h800_multi_faces/yYrvN5WFeGYjJnRzhY0QXuo4Isw.jpg",
-    "title": "Black Panther: Wakanda Forever",
-    "subTitle": "Queen Ramonda, Shuri, M’Baku, Okoye and the Dora Milaje fight to protect their nation from intervening world powers in the wake of King T’Challa’s death. As the Wakandans strive to embrace their next chapter, the heroes must band together with the help of War Dog Nakia and Everett Ross and forge a new path for the kingdom of Wakanda.",
-    "interval": 2500
-  }
-]
+{
+  "total": "9",
+  "page": 1,
+  "pages": 1,
+  "tv_shows": [
+    {
+      "id": 855,
+      "name": "A Flame in the Wind",
+      "permalink": "a-flame-in-the-wind",
+      "start_date": "Dec/28/1964",
+      "end_date": "Dec/16/1966",
+      "country": "US",
+      "network": "ABC",
+      "status": "Canceled/Ended",
+      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/855.jpg"
+    },
+    {
+      "id": 67095,
+      "name": "Blue Flame (The Lost City of West River)",
+      "permalink": "blue-flame-the-lost-city-of-west-river",
+      "start_date": "2019-09-07",
+      "end_date": null,
+      "country": "US",
+      "network": "Facebook Watch",
+      "status": "Ended",
+      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/67095.jpg"
+    },
+    {
+      "id": 22236,
+      "name": "Burning Flame III",
+      "permalink": "burning-flame-iii",
+      "start_date": "Jul/06/2009",
+      "end_date": "",
+      "country": "HK",
+      "network": "TVB Jade",
+      "status": "New Series",
+      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/22236.jpg"
+    },
+    {
+      "id": 651,
+      "name": "Flame of Recca",
+      "permalink": "flame-of-recca",
+      "start_date": "Jun/19/1997",
+      "end_date": "Jul/10/1998",
+      "country": "JP",
+      "network": "Fuji TV",
+      "status": "Canceled/Ended",
+      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/651.jpg"
+    },
+    {
+      "id": 73065,
+      "name": "Hall of Flame: Top 100 Comedy Central Roast Moments",
+      "permalink": "hall-of-flame-top-100-comedy-central-roast-moments",
+      "start_date": "2021-03-29",
+      "end_date": null,
+      "country": "US",
+      "network": "Comedy Central",
+      "status": "Running",
+      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/73065.jpg"
+    },
+    {
+      "id": 76730,
+      "name": "Shadowverse Flame",
+      "permalink": "shadowverse-flame",
+      "start_date": "2022-04-02",
+      "end_date": null,
+      "country": "JP",
+      "network": "TV Tokyo",
+      "status": "Running",
+      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/76730.jpg"
+    },
+    {
+      "id": 81855,
+      "name": "The Flame Imperial Guards",
+      "permalink": "the-flame-imperial-guards",
+      "start_date": "2022-12-31",
+      "end_date": null,
+      "country": "US",
+      "network": "iQIYI",
+      "status": "Running",
+      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/81855.jpg"
+    },
+    {
+      "id": 32526,
+      "name": "The Flame Trees of Thika",
+      "permalink": "the-flame-trees-of-thika",
+      "start_date": "Sep/01/1981",
+      "end_date": "Oct/13/1981",
+      "country": "UK",
+      "network": "itv",
+      "status": "Canceled/Ended",
+      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/32526.jpg"
+    },
+    {
+      "id": 62547,
+      "name": "The Flame's Daughter",
+      "permalink": "the-flame-s-daughter",
+      "start_date": "2018-03-01",
+      "end_date": null,
+      "country": "CN",
+      "network": "Youku",
+      "status": "Ended",
+      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/62547.jpg"
+    }
+  ]
+}

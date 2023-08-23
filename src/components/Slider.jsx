@@ -1,27 +1,24 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { AiOutlineHeart } from "react-icons/ai";
 
-const Slider = ({ slides }) => {
-  const handleImageClick = (subTitle) => {
-    console.log(subTitle); // You can replace this with the desired action to show the movie title
-  };
+const Slider = ({ shows, slides }) => {
+  const tvShows = shows.tv_shows;
+
   return (
     <Swiper spaceBetween={20} slidesPerView={3}>
-      {slides.map((slide) => (
-        <div key={slide.image} className="swiper-slide-container">
-          <SwiperSlide>
-            <img
-              src={slide.image}
-              alt=""
-              className="w-full h-48 object-cover md:h-full md:mt-40 cursor-pointer "
-              onClick={() => handleImageClick(slide.subTitle)}
-            />
-            <div className="flex flex-col items-center text-center overflow-hidden">
-              <span className="whitespace-no-wrap">{slide.title}</span>
-            </div>
-          </SwiperSlide>
-        </div>
+      {tvShows.map((tvShow) => (
+        <SwiperSlide key={tvShow.id} className="swiper-slide-container">
+          <img
+            src={tvShow.image_thumbnail_path}
+            alt={tvShow.name}
+            className="w-full h-48 object-cover md:h-full md:mt-40 cursor-pointer"
+          />
+          <div className="flex flex-col items-center text-center overflow-hidden">
+            <span className="whitespace-no-wrap">{tvShow.name}</span>{" "}
+          </div>
+        </SwiperSlide>
       ))}
     </Swiper>
   );
