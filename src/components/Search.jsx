@@ -26,9 +26,16 @@ const Search = () => {
             id="runtime"
             className="w-full h-10 text-center"
           >
-            <option value="15">15</option>
-            <option value="20">20</option>
-            <option value="25">25</option>
+            <option value="15">15min.</option>
+            <option value="20">20min.</option>
+            <option value="25">25min.</option>
+            <option value="30">30min.</option>
+            <option value="35">35min.</option>
+            <option value="40">40min.</option>
+            <option value="45">45min.</option>
+            <option value="50">50min.</option>
+            <option value="55">55min.</option>
+            <option value="60">60min.</option>
           </select>
         </div>
         <div className="flex items-center md:ml-2 w-40">

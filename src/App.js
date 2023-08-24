@@ -26,9 +26,9 @@ function App() {
   function handleShowSearch() {
     setShowSearch((prev) => !prev);
   }
-  const debouncedHandleShowSearch = debounce(() => {
-    handleShowSearch();
-  }, 2000);
+  // const debouncedHandleShowSearch = debounce(() => {
+  //   handleShowSearch();
+  // }, 2000);
 
 
   const debouncedHandleQuery = debounce((value) => {
@@ -38,13 +38,13 @@ function App() {
   function handleQuery(e) {
     const value = e.target.value;
     debouncedHandleQuery(value);
-    debouncedHandleShowSearch()
+    // debouncedHandleShowSearch()
   }
 
   useEffect(
     function () {
       if (!query || query === "") {
-        setMovies(tempShows);
+
         return;
       }
 
@@ -95,7 +95,8 @@ function App() {
         page={page}
         nextPage={nextPage}
         prevPage={prevPage}
-        maxPages={maxPages} />
+        maxPages={maxPages}
+      />
     </div>
   );
 }
