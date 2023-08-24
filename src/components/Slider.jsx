@@ -5,6 +5,7 @@ import { AiOutlineHeart } from "react-icons/ai";
 
 const Slider = ({ shows, slides }) => {
   const tvShows = shows.tv_shows;
+  console.log(shows.pages);
 
   return (
     <Swiper spaceBetween={20} slidesPerView={3}>

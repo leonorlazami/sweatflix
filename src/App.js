@@ -9,7 +9,20 @@ function App() {
   const [showSearch, setShowSearch] = useState(false);
   const [movies, setMovies] = useState(tempShows);
   const [abortController, setAbortController] = useState(null);
+  const [page, setPage] = useState(1)
+  const maxPages = movies.pages
 
+  function nextPage() {
+    if (page >= maxPages) return
+    setPage(page => page + 1)
+
+
+  }
+  function prevPage() {
+    if (page === 1) return
+
+    setPage(page => page - 1)
+  }
   function handleShowSearch() {
     setShowSearch((prev) => !prev);
   }
@@ -45,7 +58,7 @@ function App() {
         try {
           if (query.length > 3) {
             const res = await fetch(
-              `https://www.episodate.com/api/search?q=${query}&page=1`,
+              `https://www.episodate.com/api/search?q=${query}&page=${page}`,
               { signal: newAbortController.signal }
             );
 
@@ -65,7 +78,7 @@ function App() {
         newAbortController.abort();
       };
     },
-    [query]
+    [query, page]
   );
 
   return (
@@ -76,7 +89,13 @@ function App() {
         showSearch={showSearch}
         handleShowSearch={handleShowSearch} />
 
-      <Home shows={movies} query={query} />
+      <Home
+        shows={movies}
+        query={query}
+        page={page}
+        nextPage={nextPage}
+        prevPage={prevPage}
+        maxPages={maxPages} />
     </div>
   );
 }
