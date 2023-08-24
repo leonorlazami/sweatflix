@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { AiOutlineHeart } from "react-icons/ai";
 
 const Slider = ({ shows, slides, query }) => {
   const tvShows = shows.tv_shows;
