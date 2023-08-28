@@ -9,23 +9,22 @@ const Navbar = ({ query, showSearch, handleQuery, handleShowSearch }) => {
 
   return (
     <nav className="w-full h-full ">
-      <div className="flex py-6 bg-gradient-to-r from-gray-950 to-slate-800 md:justify-start">
-        <img
-          src="start.svg"
-          alt=""
-          className="w-8 md:w-16 md:absolute md:left-3 md:top-8"
-        />
-        <div className="flex flex-col ml-4 text-center">
+      <div className="flex  bg-gradient-to-r from-gray-950 to-slate-800 md:justify-start py-8 ">
+        <div className="flex items-center">
+          <img
+            src="start.svg"
+            alt=""
+            className="w-8 md:w-12 md:absolute md:left-3 md:top-10"
+          />
+
           <h1
             className={`${gradientColor} text-3xl md:text-7xl tracking-wider md:tracking-widest md:ml-16`}
           >
             Sweatflix
           </h1>
-          <h2 className={`${gradientColor} text-2xl md:text-4xl md:ml-10`}>
-            Watch & Burn
-          </h2>
         </div>
-        <div className="flex w-full justify-end items-center gap-3 md:hidden mt-8 mr-4 ">
+
+        <div className="flex w-full justify-end items-center gap-3 md:hidden mr-4 ">
           {showSearch ? (
             <input
               type="text"

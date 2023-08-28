@@ -2,7 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 
-const Slider = ({ shows, slides, query }) => {
+const Slider = ({ shows }) => {
   const tvShows = shows.tv_shows;
   console.log(tvShows.length);
 
@@ -15,9 +15,9 @@ const Slider = ({ shows, slides, query }) => {
               <img
                 src={tvShow.image_thumbnail_path}
                 alt={tvShow.name}
-                className="w-full h-48 object-cover md:h-72 md:max-h-72 md:mt-40 cursor-pointer"
+                className="w-full h-48 object-cover md:h-72 md:max-h-72 md:mt-40 cursor-pointer mt-10"
               />
-              <div className="flex flex-col items-center text-center overflow-hidden">
+              <div className="flex flex-col items-center text-left overflow-hidden font-mulish font-bold">
                 <span className="whitespace-no-wrap">{tvShow.name}</span>
               </div>
             </SwiperSlide>

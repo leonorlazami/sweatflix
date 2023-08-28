@@ -1,0 +1,442 @@
+[
+  {
+    "id": 538,
+    "url": "https://www.tvmaze.com/shows/538/futurama",
+    "name": "Futurama",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Adventure", "Science-Fiction"],
+    "status": "Running",
+    "runtime": null,
+    "averageRuntime": 30,
+    "premiered": "1999-03-28",
+    "ended": null,
+    "officialSite": "https://www.hulu.com/series/futurama-85bf4cc1-cd8b-4469-ad87-7289217a0b74",
+    "schedule": {
+      "time": "",
+      "days": ["Monday"]
+    },
+    "rating": {
+      "average": 8.7
+    },
+    "weight": 100,
+    "network": null,
+    "webChannel": {
+      "id": 2,
+      "name": "Hulu",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.hulu.com/"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 3628,
+      "thetvdb": 73871,
+      "imdb": "tt0149460"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/466/1167084.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/466/1167084.jpg"
+    },
+    "summary": "<p><b>Futurama</b> follows pizza guy Philip J. Fry, who reawakens in 31st century New New York after a cryonics lab accident. Now part of the Planet Express delivery crew, Fry travels to the farthest reaches of the universe with his robot buddy Bender and cyclopsian love interest Leela, discovering freaky mutants, intergalactic conspiracies and other strange stuff.</p>"
+  },
+  {
+    "id": 315,
+    "url": "https://www.tvmaze.com/shows/315/archer",
+    "name": "Archer",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Action", "Adult"],
+    "status": "Running",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2009-09-17",
+    "ended": null,
+    "officialSite": "http://www.fxnetworks.com/archer",
+    "schedule": {
+      "time": "22:00",
+      "days": ["Wednesday"]
+    },
+    "rating": {
+      "average": 8.4
+    },
+    "weight": 99,
+    "network": {
+      "id": 47,
+      "name": "FXX",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 23354,
+      "thetvdb": 110381,
+      "imdb": "tt1486217"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/426/1065458.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/426/1065458.jpg"
+    },
+    "summary": "<p><b>Archer</b> is an animated, half-hour comedy set at the International Secret Intelligence Service, a spy agency where espionage and global crises are merely opportunities for its highly trained employees to confuse, undermine, betray and royally screw each other.</p>"
+  },
+  {
+    "id": 216,
+    "url": "https://www.tvmaze.com/shows/216/rick-and-morty",
+    "name": "Rick and Morty",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Adventure", "Science-Fiction"],
+    "status": "Running",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2013-12-02",
+    "ended": null,
+    "officialSite": "http://www.adultswim.com/videos/rick-and-morty",
+    "schedule": {
+      "time": "23:00",
+      "days": ["Sunday"]
+    },
+    "rating": {
+      "average": 8.8
+    },
+    "weight": 100,
+    "network": {
+      "id": 10,
+      "name": "Adult Swim",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.adultswim.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 33381,
+      "thetvdb": 275274,
+      "imdb": "tt2861424"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/423/1059147.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/423/1059147.jpg"
+    },
+    "summary": "<p>Rick is a mentally gifted, but sociopathic and alcoholic scientist and a grandfather to Morty; an awkward, impressionable, and somewhat spineless teenage boy. Rick moves into the family home of Morty, where he immediately becomes a bad influence.</p>"
+  },
+  {
+    "id": 431,
+    "url": "https://www.tvmaze.com/shows/431/friends",
+    "name": "Friends",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Romance"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "1994-09-22",
+    "ended": "2004-05-06",
+    "officialSite": null,
+    "schedule": {
+      "time": "20:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 8.5
+    },
+    "weight": 97,
+    "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.nbc.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 3616,
+      "thetvdb": 79168,
+      "imdb": "tt0108778"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/41/104565.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/41/104565.jpg"
+    },
+    "summary": "<p>Six young (20-something) people from New York City (Manhattan), on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.</p><p>This average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.</p>"
+  },
+  {
+    "id": 1719,
+    "url": "https://www.tvmaze.com/shows/1719/mr-bean",
+    "name": "Mr. Bean",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Family"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "1990-01-01",
+    "ended": "1995-11-15",
+    "officialSite": null,
+    "schedule": {
+      "time": "00:00",
+      "days": []
+    },
+    "rating": {
+      "average": 8.3
+    },
+    "weight": 95,
+    "network": {
+      "id": 35,
+      "name": "ITV1",
+      "country": {
+        "name": "United Kingdom",
+        "code": "GB",
+        "timezone": "Europe/London"
+      },
+      "officialSite": "https://www.itv.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 4536,
+      "thetvdb": 76316,
+      "imdb": "tt0096657"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/45/113952.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/45/113952.jpg"
+    },
+    "summary": "<p>The first episode of the original <b>Mr. Bean</b> series starring Rowan Atkinson was first broadcast on 1st January 1990. Since then <i>Mr. Bean</i> has become known all over the world. Created by Rowan Atkinson, Richard Curtis and Robin Driscoll, there were only 14 episodes ever made. The original series emerged from Rowan Atkinson's stage revues of the 1980′s which featured the silent odd-ball. Rowan Atkinson's comic acting genius has created a highly original work for television. The <i>Mr. Bean</i> series has been sold to 190 territories worldwide and has won an International Emmy and the Golden Rose of Montreux.</p>"
+  },
+  {
+    "id": 526,
+    "url": "https://www.tvmaze.com/shows/526/the-office",
+    "name": "The Office",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2005-03-24",
+    "ended": "2013-05-16",
+    "officialSite": "http://www.nbc.com/the-office",
+    "schedule": {
+      "time": "21:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 8.4
+    },
+    "weight": 97,
+    "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.nbc.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 6061,
+      "thetvdb": 73244,
+      "imdb": "tt0386676"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/271/678637.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/271/678637.jpg"
+    },
+    "summary": "<p>Steve Carell stars in <b>The Office</b>, a fresh and funny mockumentary-style glimpse into the daily interactions of the eccentric workers at the Dunder Mifflin paper supply company. Based on the smash-hit British series of the same name and adapted for American Television by Greg Daniels, this fast-paced comedy parodies contemporary American water-cooler culture. Earnest but clueless regional manager Michael Scott believes himself to be an exceptional boss and mentor, but actually receives more eye-rolls than respect from his oddball staff.</p>"
+  },
+  {
+    "id": 49,
+    "url": "https://www.tvmaze.com/shows/49/brooklyn-nine-nine",
+    "name": "Brooklyn Nine-Nine",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Action", "Crime"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2013-09-17",
+    "ended": "2021-09-16",
+    "officialSite": "https://www.nbc.com/brooklyn-nine-nine",
+    "schedule": {
+      "time": "20:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 8.1
+    },
+    "weight": 97,
+    "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.nbc.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 35774,
+      "thetvdb": 269586,
+      "imdb": "tt2467372"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/402/1007484.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/402/1007484.jpg"
+    },
+    "summary": "<p><b>Brooklyn Nine-Nine</b> is an ensemble comedy about a talented-but-carefree detective, a by-the-book police captain and their precinct colleagues. While based in the workplace, Brooklyn Nine-Nine is not really about the job – it's about the men and women behind the badge.</p>"
+  },
+  {
+    "id": 4201,
+    "url": "https://www.tvmaze.com/shows/4201/one-punch-man",
+    "name": "One-Punch Man",
+    "type": "Animation",
+    "language": "Japanese",
+    "genres": ["Comedy", "Action", "Anime"],
+    "status": "Running",
+    "runtime": 25,
+    "averageRuntime": 25,
+    "premiered": "2015-10-06",
+    "ended": null,
+    "officialSite": "http://onepunchman-anime.net/",
+    "schedule": {
+      "time": "01:05",
+      "days": ["Tuesday"]
+    },
+    "rating": {
+      "average": 8.4
+    },
+    "weight": 91,
+    "network": {
+      "id": 76,
+      "name": "TV Tokyo",
+      "country": {
+        "name": "Japan",
+        "code": "JP",
+        "timezone": "Asia/Tokyo"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 293088,
+      "imdb": "tt4508902"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/177/444456.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/177/444456.jpg"
+    },
+    "summary": "<p><b>One-Punch Man</b> is a super hero who has trained so hard that his hair has fallen out, and who can overcome any enemy with one punch. However, because he is so strong, he has become bored and frustrated with winning all his battles so easily.</p>"
+  },
+  {
+    "id": 16149,
+    "url": "https://www.tvmaze.com/shows/16149/fleabag",
+    "name": "Fleabag",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Drama", "Comedy"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2016-07-21",
+    "ended": "2019-04-08",
+    "officialSite": "https://www.bbc.co.uk/programmes/p070npjv",
+    "schedule": {
+      "time": "10:00",
+      "days": ["Monday"]
+    },
+    "rating": {
+      "average": 8.1
+    },
+    "weight": 90,
+    "network": null,
+    "webChannel": {
+      "id": 71,
+      "name": "BBC Three",
+      "country": {
+        "name": "United Kingdom",
+        "code": "GB",
+        "timezone": "Europe/London"
+      },
+      "officialSite": "https://www.bbc.co.uk/bbcthree"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 314614,
+      "imdb": "tt5687612"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/192/482341.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/192/482341.jpg"
+    },
+    "summary": "<p>Meet <b>Fleabag</b>. She's not talking to all of us - she's talking to you. So why don't you pop your top off and come right in?</p>"
+  },
+  {
+    "id": 587,
+    "url": "https://www.tvmaze.com/shows/587/that-70s-show",
+    "name": "That '70s Show",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "1998-08-23",
+    "ended": "2006-05-18",
+    "officialSite": null,
+    "schedule": {
+      "time": "20:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 8.1
+    },
+    "weight": 93,
+    "network": {
+      "id": 4,
+      "name": "FOX",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.fox.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 5497,
+      "thetvdb": 73787,
+      "imdb": "tt0165598"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11921.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11921.jpg"
+    },
+    "summary": "<p>Crank up the 8-track and flash back to a time when platform shoes and puka shells were all the rage in this hilarious retro-sitcom. For Eric, Kelso, Jackie, Hyde, Donna and Fez, a group of high school teens who spend most of their time hanging out in Eric's basement, life in the ‘70s isn't always so groovy. But between trying to figure out the meaning of life, avoiding their parents, and dealing with out-of-control hormones, they've learned one thing for sure: they'll always get by with a little help from their friends.</p>"
+  }
+]

@@ -4,6 +4,8 @@ import Navbar from "./components/Navbar";
 import { debounce } from 'lodash';
 import tempShows from './mock.json';
 
+import Search from "./components/Search";
+
 function App() {
   const [query, setQuery] = useState(null);
   const [showSearch, setShowSearch] = useState(false);
@@ -11,11 +13,15 @@ function App() {
   const [abortController, setAbortController] = useState(null);
   const [page, setPage] = useState(1)
   const maxPages = movies.pages
+  const [genre, setGenre] = useState('comedy')
+  const [runTime, setRunTime] = useState(15)
+  const [rating, setRating] = useState('6+')
+
+
 
   function nextPage() {
     if (page >= maxPages) return
     setPage(page => page + 1)
-
 
   }
   function prevPage() {
@@ -26,9 +32,7 @@ function App() {
   function handleShowSearch() {
     setShowSearch((prev) => !prev);
   }
-  // const debouncedHandleShowSearch = debounce(() => {
-  //   handleShowSearch();
-  // }, 2000);
+
 
 
   const debouncedHandleQuery = debounce((value) => {
@@ -38,7 +42,7 @@ function App() {
   function handleQuery(e) {
     const value = e.target.value;
     debouncedHandleQuery(value);
-    // debouncedHandleShowSearch()
+
   }
 
   useEffect(
@@ -56,7 +60,7 @@ function App() {
 
       const fetchMovies = debounce(async () => {
         try {
-          if (query.length > 3) {
+          if (query.length > 1) {
             const res = await fetch(
               `https://www.episodate.com/api/search?q=${query}&page=${page}`,
               { signal: newAbortController.signal }
@@ -81,6 +85,16 @@ function App() {
     [query, page]
   );
 
+  function handleGenreChange(selectedGenre) {
+    setGenre(selectedGenre)
+  }
+  function handleRunTimeChange(selectedRunTime) {
+    setRunTime(selectedRunTime)
+  }
+  function handleRatingChange(selectedRating) {
+    setRating(selectedRating)
+  }
+  console.log(runTime)
   return (
     <div>
       <Navbar
@@ -88,6 +102,12 @@ function App() {
         handleQuery={handleQuery}
         showSearch={showSearch}
         handleShowSearch={handleShowSearch} />
+      <Search
+        handleGenreChange={handleGenreChange}
+        handleRunTimeChange={handleRunTimeChange}
+        handleRatingChange={handleRatingChange}
+      />
+
 
       <Home
         shows={movies}
