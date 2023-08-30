@@ -5,6 +5,7 @@ import { debounce } from 'lodash';
 import tempShows from './mock.json';
 
 import Search from "./components/Search";
+import TVShowCarousel from "./components/TVShowCarousel";
 
 function App() {
   const [query, setQuery] = useState(null);
@@ -13,9 +14,7 @@ function App() {
   const [abortController, setAbortController] = useState(null);
   const [page, setPage] = useState(1)
   const maxPages = movies.pages
-  const [genre, setGenre] = useState('comedy')
-  const [runTime, setRunTime] = useState(15)
-  const [rating, setRating] = useState('6+')
+
 
 
 
@@ -85,16 +84,7 @@ function App() {
     [query, page]
   );
 
-  function handleGenreChange(selectedGenre) {
-    setGenre(selectedGenre)
-  }
-  function handleRunTimeChange(selectedRunTime) {
-    setRunTime(selectedRunTime)
-  }
-  function handleRatingChange(selectedRating) {
-    setRating(selectedRating)
-  }
-  console.log(runTime)
+
   return (
     <div>
       <Navbar
@@ -102,13 +92,10 @@ function App() {
         handleQuery={handleQuery}
         showSearch={showSearch}
         handleShowSearch={handleShowSearch} />
-      <Search
-        handleGenreChange={handleGenreChange}
-        handleRunTimeChange={handleRunTimeChange}
-        handleRatingChange={handleRatingChange}
+      <TVShowCarousel
+        shows={movies}
+
       />
-
-
       <Home
         shows={movies}
         query={query}

@@ -1,13 +1,10 @@
 import React from "react";
-import Slider from "./Slider";
-import slides from "../mock.json";
 
-const Home = ({ shows, page, nextPage, prevPage, query, maxPages }) => {
+const Home = ({ shows, page, nextPage, prevPage, maxPages }) => {
   const tvShows = shows.tv_shows;
 
   return (
     <>
-      <Slider slides={slides.tv_shows} shows={shows} query={query} />
       {tvShows.length > 0 && (
         <div className="flex items-center justify-center gap-4 mt-8 ">
           <button

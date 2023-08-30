@@ -4,7 +4,6 @@ import "swiper/css/pagination";
 
 const Slider = ({ shows }) => {
   const tvShows = shows.tv_shows;
-  console.log(tvShows.length);
 
   return (
     <div>
