@@ -1,18 +1,27 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { useState } from "react";
 
-const Slider = ({ shows }) => {
-  const tvShows = shows.tv_shows;
+const Slider = ({ shows, filteredShows, handleShowClick }) => {
+  const tvShows = filteredShows.length > 0 ? filteredShows : shows.tv_shows;
 
   return (
     <div>
       {tvShows.length > 0 ? (
         <Swiper spaceBetween={20} slidesPerView={3}>
           {tvShows.map((tvShow) => (
-            <SwiperSlide key={tvShow.id} className="swiper-slide-container">
+            <SwiperSlide
+              key={tvShow.id}
+              className="swiper-slide-container"
+              onClick={() => handleShowClick(tvShow.id)}
+            >
               <img
-                src={tvShow.image_thumbnail_path}
+                src={
+                  filteredShows.length > 0
+                    ? tvShow.image.medium
+                    : tvShow.image_thumbnail_path
+                }
                 alt={tvShow.name}
                 className="w-full h-48 object-cover md:h-72 md:max-h-72 md:mt-40 cursor-pointer mt-10"
               />

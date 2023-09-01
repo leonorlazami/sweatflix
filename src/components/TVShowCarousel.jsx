@@ -3,7 +3,7 @@ import Search from "./Search";
 import Slider from "./Slider";
 import mock from "../shows.json";
 
-const TVShowCarousel = ({ shows }) => {
+const TVShowCarousel = ({ shows, handleShowClick }) => {
   const [genre, setGenre] = useState("Comedy");
   const [runTime, setRunTime] = useState(30);
   const [rating, setRating] = useState(6);
@@ -24,7 +24,8 @@ const TVShowCarousel = ({ shows }) => {
       (show) =>
         show.genres.includes(genre) &&
         show.averageRuntime <= runTime &&
-        show.rating.average <= parseInt(rating + 1)
+        show.rating.average > rating &&
+        show.rating.average < rating + 1
     );
     setFilteredShows(filtered);
   }
@@ -37,7 +38,11 @@ const TVShowCarousel = ({ shows }) => {
         handleRatingChange={handleRatingChange}
         handleFindButton={handleFindButton}
       />
-      <Slider shows={shows} />
+      <Slider
+        shows={shows}
+        filteredShows={filteredShows}
+        handleShowClick={handleShowClick}
+      />
     </div>
   );
 };

@@ -4,8 +4,9 @@ import Navbar from "./components/Navbar";
 import { debounce } from 'lodash';
 import tempShows from './mock.json';
 
-import Search from "./components/Search";
+
 import TVShowCarousel from "./components/TVShowCarousel";
+import Details from "./components/Details";
 
 function App() {
   const [query, setQuery] = useState(null);
@@ -14,9 +15,12 @@ function App() {
   const [abortController, setAbortController] = useState(null);
   const [page, setPage] = useState(1)
   const maxPages = movies.pages
+  const [selectedShow, setSelectedShow] = useState(null);
 
-
-
+  const handleShowClick = (show) => {
+    setSelectedShow(show);
+  };
+  console.log(selectedShow)
 
   function nextPage() {
     if (page >= maxPages) return
@@ -86,26 +90,32 @@ function App() {
 
 
   return (
-    <div>
+    selectedShow ? <div>
       <Navbar
         query={query}
         handleQuery={handleQuery}
         showSearch={showSearch}
         handleShowSearch={handleShowSearch} />
-      <TVShowCarousel
-        shows={movies}
+      <Details selectedShow={selectedShow} handleShowClick={handleShowClick} />
 
-      />
-      <Home
-        shows={movies}
-        query={query}
-        page={page}
-        nextPage={nextPage}
-        prevPage={prevPage}
-        maxPages={maxPages}
-      />
-    </div>
+
+    </div> : (
+      <div>
+
+        <TVShowCarousel
+          shows={movies}
+          handleShowClick={handleShowClick} />
+        <Home
+          shows={movies}
+          query={query}
+          page={page}
+          nextPage={nextPage}
+          prevPage={prevPage}
+          maxPages={maxPages} />
+      </div>
+    )
   );
+
 }
 
 export default App;
