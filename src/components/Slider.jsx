@@ -1,7 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { useState } from "react";
 
 const Slider = ({ shows, filteredShows, handleShowClick }) => {
   const tvShows = filteredShows.length > 0 ? filteredShows : shows.tv_shows;

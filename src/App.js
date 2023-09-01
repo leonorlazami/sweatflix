@@ -5,6 +5,7 @@ import { debounce } from 'lodash';
 import tempShows from './mock.json';
 
 
+
 import TVShowCarousel from "./components/TVShowCarousel";
 import Details from "./components/Details";
 
@@ -90,6 +91,7 @@ function App() {
 
 
   return (
+
     selectedShow ? <div>
       <Navbar
         query={query}
@@ -101,6 +103,11 @@ function App() {
 
     </div> : (
       <div>
+        <Navbar
+          query={query}
+          handleQuery={handleQuery}
+          showSearch={showSearch}
+          handleShowSearch={handleShowSearch} />
 
         <TVShowCarousel
           shows={movies}
