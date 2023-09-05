@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Home from "./components/Home";
+
 import Navbar from "./components/Navbar";
 import { debounce } from 'lodash';
 import tempShows from './mock.json';
@@ -21,7 +21,7 @@ function App() {
   const handleShowClick = (show) => {
     setSelectedShow(show);
   };
-  console.log(selectedShow)
+
 
   function nextPage() {
     if (page >= maxPages) return
@@ -49,45 +49,72 @@ function App() {
 
   }
 
-  useEffect(
-    function () {
-      if (!query || query === "") {
+  useEffect(() => {
+    if (!query || query === "") {
+      return;
+    }
 
-        return;
-      }
 
-      if (abortController) {
-        abortController.abort();
-      }
-      const newAbortController = new AbortController();
-      setAbortController(newAbortController);
+    const newAbortController = new AbortController();
+    setAbortController(newAbortController);
 
-      const fetchMovies = debounce(async () => {
-        try {
-          if (query.length > 1) {
-            const res = await fetch(
-              `https://www.episodate.com/api/search?q=${query}&page=${page}`,
-              { signal: newAbortController.signal }
-            );
+    const fetchMovies = debounce(async () => {
+      try {
+        if (query.length > 1) {
+          const res = await fetch(
+            `https://api.tvmaze.com/search/shows?q=${query}`,
+            { signal: newAbortController.signal }
+          );
 
-            const data = await res.json();
-            setMovies(data);
-          }
-        } catch (error) {
-          if (error.name !== "AbortError") {
-            console.error("Error fetching movies:", error);
-          }
+          const data = await res.json();
+
+          const movieList = data.map((result) => {
+            const show = result.show;
+            return {
+              id: show.id || null,
+              url: show.url || null,
+              name: show.name || null,
+              type: show.type || null,
+              language: show.language || null,
+              genres: show.genres || [],
+              premiered: show.premiered || null,
+              rating: {
+                average: show.rating?.average || null,
+              },
+              webChannel: {
+                name: show.network?.name || null,
+                officialSite: show.network?.officialSite || null,
+              },
+
+              image: {
+                medium: show.image?.medium || null,
+                original: show.image?.original || null
+              }
+
+            };
+          });
+
+          setMovies(movieList);
         }
-      }, 300);
 
-      fetchMovies();
+      } catch (error) {
+        if (error.name !== "AbortError") {
+          console.error("Error fetching movies:", error);
+        }
+      }
+    }, 300);
 
-      return function () {
+    fetchMovies();
+
+
+    return function () {
+      if (newAbortController) {
         newAbortController.abort();
-      };
-    },
-    [query, page]
-  );
+      }
+    };
+  }, [query, page]);
+  console.log(movies)
+
 
 
   return (
@@ -112,13 +139,7 @@ function App() {
         <TVShowCarousel
           shows={movies}
           handleShowClick={handleShowClick} />
-        <Home
-          shows={movies}
-          query={query}
-          page={page}
-          nextPage={nextPage}
-          prevPage={prevPage}
-          maxPages={maxPages} />
+
       </div>
     )
   );

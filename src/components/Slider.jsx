@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 const Slider = ({ shows, filteredShows, handleShowClick }) => {
-  const tvShows = filteredShows.length > 0 ? filteredShows : shows.tv_shows;
+  const tvShows = filteredShows.length > 0 ? filteredShows : shows;
 
   return (
     <div>
@@ -17,7 +17,7 @@ const Slider = ({ shows, filteredShows, handleShowClick }) => {
             >
               <img
                 src={
-                  filteredShows.length > 0
+                  tvShow.image.medium
                     ? tvShow.image.medium
                     : tvShow.image_thumbnail_path
                 }

@@ -29,7 +29,7 @@ const TVShowCarousel = ({ shows, handleShowClick }) => {
     );
     setFilteredShows(filtered);
   }
-  console.log(filteredShows);
+
   return (
     <div>
       <Search

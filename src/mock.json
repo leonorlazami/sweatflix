@@ -1,106 +1,1385 @@
-{
-  "total": "9",
-  "page": 1,
-  "pages": 1,
-  "tv_shows": [
-    {
-      "id": 855,
-      "name": "A Flame in the Wind",
-      "permalink": "a-flame-in-the-wind",
-      "start_date": "Dec/28/1964",
-      "end_date": "Dec/16/1966",
-      "country": "US",
-      "network": "ABC",
-      "status": "Canceled/Ended",
-      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/855.jpg"
+[
+  {
+    "id": 538,
+    "url": "https://www.tvmaze.com/shows/538/futurama",
+    "name": "Futurama",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Adventure", "Science-Fiction"],
+    "status": "Running",
+    "runtime": null,
+    "averageRuntime": 30,
+    "premiered": "1999-03-28",
+    "ended": null,
+    "officialSite": "https://www.hulu.com/series/futurama-85bf4cc1-cd8b-4469-ad87-7289217a0b74",
+    "schedule": {
+      "time": "",
+      "days": ["Monday"]
     },
-    {
-      "id": 67095,
-      "name": "Blue Flame (The Lost City of West River)",
-      "permalink": "blue-flame-the-lost-city-of-west-river",
-      "start_date": "2019-09-07",
-      "end_date": null,
-      "country": "US",
-      "network": "Facebook Watch",
-      "status": "Ended",
-      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/67095.jpg"
+    "rating": {
+      "average": 8.7
     },
-    {
-      "id": 22236,
-      "name": "Burning Flame III",
-      "permalink": "burning-flame-iii",
-      "start_date": "Jul/06/2009",
-      "end_date": "",
-      "country": "HK",
-      "network": "TVB Jade",
-      "status": "New Series",
-      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/22236.jpg"
+    "weight": 100,
+    "network": null,
+    "webChannel": {
+      "id": 2,
+      "name": "Hulu",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.hulu.com/"
     },
-    {
-      "id": 651,
-      "name": "Flame of Recca",
-      "permalink": "flame-of-recca",
-      "start_date": "Jun/19/1997",
-      "end_date": "Jul/10/1998",
-      "country": "JP",
-      "network": "Fuji TV",
-      "status": "Canceled/Ended",
-      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/651.jpg"
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 3628,
+      "thetvdb": 73871,
+      "imdb": "tt0149460"
     },
-    {
-      "id": 73065,
-      "name": "Hall of Flame: Top 100 Comedy Central Roast Moments",
-      "permalink": "hall-of-flame-top-100-comedy-central-roast-moments",
-      "start_date": "2021-03-29",
-      "end_date": null,
-      "country": "US",
-      "network": "Comedy Central",
-      "status": "Running",
-      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/73065.jpg"
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/466/1167084.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/466/1167084.jpg"
     },
-    {
-      "id": 76730,
-      "name": "Shadowverse Flame",
-      "permalink": "shadowverse-flame",
-      "start_date": "2022-04-02",
-      "end_date": null,
-      "country": "JP",
-      "network": "TV Tokyo",
-      "status": "Running",
-      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/76730.jpg"
+    "summary": "<p><b>Futurama</b> follows pizza guy Philip J. Fry, who reawakens in 31st century New New York after a cryonics lab accident. Now part of the Planet Express delivery crew, Fry travels to the farthest reaches of the universe with his robot buddy Bender and cyclopsian love interest Leela, discovering freaky mutants, intergalactic conspiracies and other strange stuff.</p>"
+  },
+  {
+    "id": 315,
+    "url": "https://www.tvmaze.com/shows/315/archer",
+    "name": "Archer",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Action", "Adult"],
+    "status": "Running",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2009-09-17",
+    "ended": null,
+    "officialSite": "http://www.fxnetworks.com/archer",
+    "schedule": {
+      "time": "22:00",
+      "days": ["Wednesday"]
     },
-    {
-      "id": 81855,
-      "name": "The Flame Imperial Guards",
-      "permalink": "the-flame-imperial-guards",
-      "start_date": "2022-12-31",
-      "end_date": null,
-      "country": "US",
-      "network": "iQIYI",
-      "status": "Running",
-      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/81855.jpg"
+    "rating": {
+      "average": 8.4
     },
-    {
-      "id": 32526,
-      "name": "The Flame Trees of Thika",
-      "permalink": "the-flame-trees-of-thika",
-      "start_date": "Sep/01/1981",
-      "end_date": "Oct/13/1981",
-      "country": "UK",
-      "network": "itv",
-      "status": "Canceled/Ended",
-      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/32526.jpg"
+    "weight": 99,
+    "network": {
+      "id": 47,
+      "name": "FXX",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
     },
-    {
-      "id": 62547,
-      "name": "The Flame's Daughter",
-      "permalink": "the-flame-s-daughter",
-      "start_date": "2018-03-01",
-      "end_date": null,
-      "country": "CN",
-      "network": "Youku",
-      "status": "Ended",
-      "image_thumbnail_path": "https://static.episodate.com/images/tv-show/thumbnail/62547.jpg"
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 23354,
+      "thetvdb": 110381,
+      "imdb": "tt1486217"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/426/1065458.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/426/1065458.jpg"
+    },
+    "summary": "<p><b>Archer</b> is an animated, half-hour comedy set at the International Secret Intelligence Service, a spy agency where espionage and global crises are merely opportunities for its highly trained employees to confuse, undermine, betray and royally screw each other.</p>"
+  },
+  {
+    "id": 216,
+    "url": "https://www.tvmaze.com/shows/216/rick-and-morty",
+    "name": "Rick and Morty",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Adventure", "Science-Fiction"],
+    "status": "Running",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2013-12-02",
+    "ended": null,
+    "officialSite": "http://www.adultswim.com/videos/rick-and-morty",
+    "schedule": {
+      "time": "23:00",
+      "days": ["Sunday"]
+    },
+    "rating": {
+      "average": 8.8
+    },
+    "weight": 100,
+    "network": {
+      "id": 10,
+      "name": "Adult Swim",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.adultswim.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 33381,
+      "thetvdb": 275274,
+      "imdb": "tt2861424"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/423/1059147.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/423/1059147.jpg"
+    },
+    "summary": "<p>Rick is a mentally gifted, but sociopathic and alcoholic scientist and a grandfather to Morty; an awkward, impressionable, and somewhat spineless teenage boy. Rick moves into the family home of Morty, where he immediately becomes a bad influence.</p>"
+  },
+  {
+    "id": 431,
+    "url": "https://www.tvmaze.com/shows/431/friends",
+    "name": "Friends",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Romance"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "1994-09-22",
+    "ended": "2004-05-06",
+    "officialSite": null,
+    "schedule": {
+      "time": "20:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 8.5
+    },
+    "weight": 97,
+    "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.nbc.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 3616,
+      "thetvdb": 79168,
+      "imdb": "tt0108778"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/41/104565.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/41/104565.jpg"
+    },
+    "summary": "<p>Six young (20-something) people from New York City (Manhattan), on their own and struggling to survive in the real world, find the companionship, comfort and support they get from each other to be the perfect antidote to the pressures of life.</p><p>This average group of buddies goes through massive mayhem, family trouble, past and future romances, fights, laughs, tears and surprises as they learn what it really means to be a friend.</p>"
+  },
+  {
+    "id": 1719,
+    "url": "https://www.tvmaze.com/shows/1719/mr-bean",
+    "name": "Mr. Bean",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Family"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "1990-01-01",
+    "ended": "1995-11-15",
+    "officialSite": null,
+    "schedule": {
+      "time": "00:00",
+      "days": []
+    },
+    "rating": {
+      "average": 8.3
+    },
+    "weight": 95,
+    "network": {
+      "id": 35,
+      "name": "ITV1",
+      "country": {
+        "name": "United Kingdom",
+        "code": "GB",
+        "timezone": "Europe/London"
+      },
+      "officialSite": "https://www.itv.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 4536,
+      "thetvdb": 76316,
+      "imdb": "tt0096657"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/45/113952.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/45/113952.jpg"
+    },
+    "summary": "<p>The first episode of the original <b>Mr. Bean</b> series starring Rowan Atkinson was first broadcast on 1st January 1990. Since then <i>Mr. Bean</i> has become known all over the world. Created by Rowan Atkinson, Richard Curtis and Robin Driscoll, there were only 14 episodes ever made. The original series emerged from Rowan Atkinson's stage revues of the 1980′s which featured the silent odd-ball. Rowan Atkinson's comic acting genius has created a highly original work for television. The <i>Mr. Bean</i> series has been sold to 190 territories worldwide and has won an International Emmy and the Golden Rose of Montreux.</p>"
+  },
+  {
+    "id": 526,
+    "url": "https://www.tvmaze.com/shows/526/the-office",
+    "name": "The Office",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2005-03-24",
+    "ended": "2013-05-16",
+    "officialSite": "http://www.nbc.com/the-office",
+    "schedule": {
+      "time": "21:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 8.4
+    },
+    "weight": 97,
+    "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.nbc.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 6061,
+      "thetvdb": 73244,
+      "imdb": "tt0386676"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/271/678637.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/271/678637.jpg"
+    },
+    "summary": "<p>Steve Carell stars in <b>The Office</b>, a fresh and funny mockumentary-style glimpse into the daily interactions of the eccentric workers at the Dunder Mifflin paper supply company. Based on the smash-hit British series of the same name and adapted for American Television by Greg Daniels, this fast-paced comedy parodies contemporary American water-cooler culture. Earnest but clueless regional manager Michael Scott believes himself to be an exceptional boss and mentor, but actually receives more eye-rolls than respect from his oddball staff.</p>"
+  },
+  {
+    "id": 49,
+    "url": "https://www.tvmaze.com/shows/49/brooklyn-nine-nine",
+    "name": "Brooklyn Nine-Nine",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Action", "Crime"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2013-09-17",
+    "ended": "2021-09-16",
+    "officialSite": "https://www.nbc.com/brooklyn-nine-nine",
+    "schedule": {
+      "time": "20:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 8.1
+    },
+    "weight": 97,
+    "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.nbc.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 35774,
+      "thetvdb": 269586,
+      "imdb": "tt2467372"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/402/1007484.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/402/1007484.jpg"
+    },
+    "summary": "<p><b>Brooklyn Nine-Nine</b> is an ensemble comedy about a talented-but-carefree detective, a by-the-book police captain and their precinct colleagues. While based in the workplace, Brooklyn Nine-Nine is not really about the job – it's about the men and women behind the badge.</p>"
+  },
+  {
+    "id": 4201,
+    "url": "https://www.tvmaze.com/shows/4201/one-punch-man",
+    "name": "One-Punch Man",
+    "type": "Animation",
+    "language": "Japanese",
+    "genres": ["Comedy", "Action", "Anime"],
+    "status": "Running",
+    "runtime": 25,
+    "averageRuntime": 25,
+    "premiered": "2015-10-06",
+    "ended": null,
+    "officialSite": "http://onepunchman-anime.net/",
+    "schedule": {
+      "time": "01:05",
+      "days": ["Tuesday"]
+    },
+    "rating": {
+      "average": 8.4
+    },
+    "weight": 91,
+    "network": {
+      "id": 76,
+      "name": "TV Tokyo",
+      "country": {
+        "name": "Japan",
+        "code": "JP",
+        "timezone": "Asia/Tokyo"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 293088,
+      "imdb": "tt4508902"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/177/444456.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/177/444456.jpg"
+    },
+    "summary": "<p><b>One-Punch Man</b> is a super hero who has trained so hard that his hair has fallen out, and who can overcome any enemy with one punch. However, because he is so strong, he has become bored and frustrated with winning all his battles so easily.</p>"
+  },
+  {
+    "id": 16149,
+    "url": "https://www.tvmaze.com/shows/16149/fleabag",
+    "name": "Fleabag",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Drama", "Comedy"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2016-07-21",
+    "ended": "2019-04-08",
+    "officialSite": "https://www.bbc.co.uk/programmes/p070npjv",
+    "schedule": {
+      "time": "10:00",
+      "days": ["Monday"]
+    },
+    "rating": {
+      "average": 8.1
+    },
+    "weight": 90,
+    "network": null,
+    "webChannel": {
+      "id": 71,
+      "name": "BBC Three",
+      "country": {
+        "name": "United Kingdom",
+        "code": "GB",
+        "timezone": "Europe/London"
+      },
+      "officialSite": "https://www.bbc.co.uk/bbcthree"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 314614,
+      "imdb": "tt5687612"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/192/482341.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/192/482341.jpg"
+    },
+    "summary": "<p>Meet <b>Fleabag</b>. She's not talking to all of us - she's talking to you. So why don't you pop your top off and come right in?</p>"
+  },
+  {
+    "id": 587,
+    "url": "https://www.tvmaze.com/shows/587/that-70s-show",
+    "name": "That '70s Show",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "1998-08-23",
+    "ended": "2006-05-18",
+    "officialSite": null,
+    "schedule": {
+      "time": "20:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 8.1
+    },
+    "weight": 93,
+    "network": {
+      "id": 4,
+      "name": "FOX",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.fox.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 5497,
+      "thetvdb": 73787,
+      "imdb": "tt0165598"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/4/11921.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/4/11921.jpg"
+    },
+    "summary": "<p>Crank up the 8-track and flash back to a time when platform shoes and puka shells were all the rage in this hilarious retro-sitcom. For Eric, Kelso, Jackie, Hyde, Donna and Fez, a group of high school teens who spend most of their time hanging out in Eric's basement, life in the ‘70s isn't always so groovy. But between trying to figure out the meaning of life, avoiding their parents, and dealing with out-of-control hormones, they've learned one thing for sure: they'll always get by with a little help from their friends.</p>"
+  },
+  {
+    "id": 112,
+    "url": "https://www.tvmaze.com/shows/112/south-park",
+    "name": "South Park",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy"],
+    "status": "Running",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "1997-08-13",
+    "ended": null,
+    "officialSite": "https://www.cc.com/shows/south-park",
+    "schedule": {
+      "time": "22:00",
+      "days": ["Wednesday"]
+    },
+    "rating": {
+      "average": 8.4
+    },
+    "weight": 98,
+    "network": {
+      "id": 23,
+      "name": "Comedy Central",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.cc.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 5266,
+      "thetvdb": 75897,
+      "imdb": "tt0121955"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/935.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/935.jpg"
+    },
+    "summary": "<p><b>South Park</b> is an adult comedy animation show centred around 4 children in the small town of south park. Its humour is often dark involving satirical elements and mocking current real-life events.</p>",
+    "updated": 1684065229,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/112"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2509776"
+      }
     }
-  ]
-}
+  },
+  {
+    "id": 868,
+    "url": "https://www.tvmaze.com/shows/868/regular-show",
+    "name": "Regular Show",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Adventure"],
+    "status": "Ended",
+    "runtime": 15,
+    "averageRuntime": 15,
+    "premiered": "2010-09-06",
+    "ended": "2017-01-16",
+    "officialSite": "http://www.cartoonnetwork.com/tv_shows/regular-show/video",
+    "schedule": {
+      "time": "18:00",
+      "days": ["Monday"]
+    },
+    "rating": {
+      "average": 8.1
+    },
+    "weight": 87,
+    "network": {
+      "id": 11,
+      "name": "Cartoon Network",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 26426,
+      "thetvdb": 188401,
+      "imdb": "tt1710308"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/6/15947.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/6/15947.jpg"
+    },
+    "summary": "<p>The<b> Regular Show</b> is about Mordecai and Rigby who are two best friends who take the problems and mundane tasks of their boring job to fantastical places.</p>",
+    "updated": 1615068425,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/868"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1045079"
+      }
+    }
+  },
+  {
+    "id": 63900,
+    "url": "https://www.tvmaze.com/shows/63900/cunk-on-earth",
+    "name": "Cunk on Earth",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Travel", "History"],
+    "status": "Ended",
+    "runtime": null,
+    "averageRuntime": 29,
+    "premiered": "2022-09-20",
+    "ended": "2022-09-20",
+    "officialSite": "https://www.bbc.co.uk/programmes/m001cbmw",
+    "schedule": {
+      "time": "22:00",
+      "days": ["Tuesday"]
+    },
+    "rating": {
+      "average": 8
+    },
+    "weight": 93,
+    "network": null,
+    "webChannel": {
+      "id": 26,
+      "name": "BBC iPlayer",
+      "country": {
+        "name": "United Kingdom",
+        "code": "GB",
+        "timezone": "Europe/London"
+      },
+      "officialSite": "https://www.bbc.co.uk/iplayer"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 414217,
+      "imdb": "tt16867040"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/422/1056863.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/422/1056863.jpg"
+    },
+    "summary": "<p>In this deeply profound and important mockumentary series from Charlie Brooker, Philomena Cunk tells the entire story of Human Civilisation from prehistoric times to the present day, covering all the main bits of History, Science, Culture and Religion. </p>",
+    "updated": 1675156418,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/63900"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2394365"
+      }
+    }
+  },
+  {
+    "id": 530,
+    "url": "https://www.tvmaze.com/shows/530/seinfeld",
+    "name": "Seinfeld",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "1989-07-05",
+    "ended": "1998-05-14",
+    "officialSite": "http://www.sonypictures.com/tv/seinfeld/",
+    "schedule": {
+      "time": "21:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 8.3
+    },
+    "weight": 95,
+    "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.nbc.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 5145,
+      "thetvdb": 79169,
+      "imdb": "tt0098904"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/83/207960.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/83/207960.jpg"
+    },
+    "summary": "<p><b>Seinfeld</b> is the story of a fictionalized version of stand-up comedian Jerry Seinfeld, his life in New York City and his quirky group of friends who join him in wrestling with life's most perplexing, yet often trivial questions. Often described as \"a show about nothing,\" Seinfeld mines the humor in life's mundane situations like waiting in line, searching for a lost item, or the trials and tribulations of dating.</p>",
+    "updated": 1646841917,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/530"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/48246"
+      }
+    }
+  },
+  {
+    "id": 347,
+    "url": "https://www.tvmaze.com/shows/347/its-always-sunny-in-philadelphia",
+    "name": "It's Always Sunny in Philadelphia",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy"],
+    "status": "Running",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2005-08-04",
+    "ended": null,
+    "officialSite": "http://www.fxnetworks.com/shows/its-always-sunny-in-philadelphia",
+    "schedule": {
+      "time": "22:00",
+      "days": ["Wednesday"]
+    },
+    "rating": {
+      "average": 8.2
+    },
+    "weight": 99,
+    "network": {
+      "id": 47,
+      "name": "FXX",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 4004,
+      "thetvdb": 75805,
+      "imdb": "tt0472954"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/463/1159175.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/463/1159175.jpg"
+    },
+    "summary": "<p><b>It's Always Sunny in Philadelphia</b> is an American comedy series about four friends in their late 20s with clear sociopathic tendencies who run an unsuccessful Irish bar, \"Paddy's Pub,\" in South Philadelphia. The series deals with a variety of controversial topics, including abortion, gun control, physical disabilities, racism, sexism, religion, the Israeli/Palestinian situation, terrorism, transsexuality, slavery, incest, sexual harassment in education, the homeless, statutory rape, drug addiction, pedophilia, child abuse, mental illness, gay rights and dumpster babies.</p>",
+    "updated": 1689955365,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/347"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2574335"
+      }
+    }
+  },
+  {
+    "id": 84,
+    "url": "https://www.tvmaze.com/shows/84/family-guy",
+    "name": "Family Guy",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Family"],
+    "status": "Running",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "1999-01-31",
+    "ended": null,
+    "officialSite": "http://www.fox.com/family-guy",
+    "schedule": {
+      "time": "21:30",
+      "days": ["Sunday"]
+    },
+    "rating": {
+      "average": 7.5
+    },
+    "weight": 99,
+    "network": {
+      "id": 4,
+      "name": "FOX",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.fox.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 3506,
+      "thetvdb": 75978,
+      "imdb": "tt0182576"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/423/1058269.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/423/1058269.jpg"
+    },
+    "summary": "<p><b>Family Guy</b> follows Peter Griffin the endearingly ignorant dad, and his hilariously offbeat family of middle-class New Englanders in Quahog, RI. Lois is Peter's wife, a stay-at-home mom with no patience for her family's antics. Then there are their kids: 18-year-old Meg is an outcast at school and the Griffin family punching bag; 13-year-old Chris is a socially awkward teen who doesn't have a clue about the opposite sex; and one-year-old Stewie is a diabolically clever baby whose burgeoning sexuality is very much a work in progress. Rounding out the Griffin household is Brian the family dog and a ladies' man who is one step away from AA.</p>",
+    "updated": 1693002710,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/84"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2459714"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/2594031"
+      }
+    }
+  },
+  {
+    "id": 33452,
+    "url": "https://www.tvmaze.com/shows/33452/harley-quinn",
+    "name": "Harley Quinn",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Action", "Crime"],
+    "status": "Running",
+    "runtime": null,
+    "averageRuntime": 26,
+    "premiered": "2019-11-29",
+    "ended": null,
+    "officialSite": "https://www.max.com/shows/dc3552e4-32ed-4719-b3fb-7938b59b4658",
+    "schedule": {
+      "time": "",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 7.4
+    },
+    "weight": 99,
+    "network": null,
+    "webChannel": {
+      "id": 329,
+      "name": "Max",
+      "country": null,
+      "officialSite": "https://www.max.com/"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 365677,
+      "imdb": "tt7658402"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/415/1038535.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/415/1038535.jpg"
+    },
+    "summary": "<p><b>Harley Quinn</b>, based on the DC characters, focuses on Harley Quinn who has finally broken things off once and for all with the Joker and attempts to make it on her own as the criminal Queenpin of Gotham City. The series features Harley Quinn, Poison Ivy and a whole cast of heroes and villains, old and new, from the DC Universe.</p>",
+    "updated": 1692906884,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/33452"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2605040"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/2605041"
+      }
+    }
+  },
+  {
+    "id": 26020,
+    "url": "https://www.tvmaze.com/shows/26020/young-sheldon",
+    "name": "Young Sheldon",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Family"],
+    "status": "Running",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2017-09-25",
+    "ended": null,
+    "officialSite": "http://www.cbs.com/shows/young-sheldon/",
+    "schedule": {
+      "time": "20:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 7.2
+    },
+    "weight": 99,
+    "network": {
+      "id": 2,
+      "name": "CBS",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.cbs.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 328724,
+      "imdb": "tt6226232"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/424/1060718.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/424/1060718.jpg"
+    },
+    "summary": "<p>For young Sheldon Cooper, it isn't easy growing up in East Texas. Being a once-in-a-generation mind capable of advanced mathematics and science isn't always helpful in a land where church and football are king. And while the vulnerable, gifted and somewhat naïve Sheldon deals with the world, his very normal family must find a way to deal with him. His father, George, is struggling to find his way as a high school football coach and as father to a boy he doesn't understand. Sheldon's mother, Mary, fiercely protects and nurtures her son in a town where he just doesn't fit in. Sheldon's older brother, Georgie, does the best he can in high school, but it's tough to be cool when you're in the same classes with your odd younger brother. Sheldon's twin sister, Missy, sometimes resents all the attention Sheldon gets, but also remains the one person who can reliably tell Sheldon the truth. Finally, there's Sheldon's beloved Meemaw, his foul-mouthed, hard-drinking Texas grandmother who is very supportive of her grandson and his unique gifts. For 12 years on <i>The Big Bang Theory</i>, audiences have come to know the iconic, eccentric, and extraordinary Sheldon Cooper. This single-camera, half-hour comedy allows us the chance to meet him in childhood, as he embarks on his innocent, awkward, and hopeful journey toward the man he will become.</p>",
+    "updated": 1692230751,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/26020"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2496131"
+      }
+    }
+  },
+  {
+    "id": 80,
+    "url": "https://www.tvmaze.com/shows/80/modern-family",
+    "name": "Modern Family",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Family"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2009-09-23",
+    "ended": "2020-04-08",
+    "officialSite": "http://abc.go.com/shows/modern-family",
+    "schedule": {
+      "time": "21:00",
+      "days": ["Wednesday"]
+    },
+    "rating": {
+      "average": 7.7
+    },
+    "weight": 98,
+    "network": {
+      "id": 3,
+      "name": "ABC",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://abc.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 22622,
+      "thetvdb": 95011,
+      "imdb": "tt1442437"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/359/898320.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/359/898320.jpg"
+    },
+    "summary": "<p><b>Modern Family</b> revolves around three different types of families (nuclear, step- and same-sex) living in the Los Angeles area, who are interrelated through Jay Pritchett and his children, Claire Dunphy (née Pritchett) and Mitchell Pritchett. Patriarch Jay is remarried to a much younger woman, Gloria Delgado Pritchett (née Ramirez), a passionate Colombian with whom he has an infant son, Fulgencio (Joe) Pritchett, and a son from Gloria's previous marriage, Manny Delgado.</p><p>Jay's daughter Claire was a homemaker, but has returned to the business world. She is now the chief executive of her father's previous business, Pritchett's Closets and Blinds. She is married to Phil Dunphy, a realtor and self-professed \"cool dad\". They have three children: Haley Dunphy, a stereotypical ditzy teenage girl; Alex Dunphy, a nerdy, smart middle child; and Luke Dunphy, the off-beat only son.</p><p>Jay's lawyer son Mitchell and his husband Cameron Tucker have one daughter, Lily Tucker-Pritchett. As the name suggests, this family represents a modern-day family, and episodes are comically based on situations which many families encounter in real life.</p>",
+    "updated": 1669170900,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/80"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1809502"
+      }
+    }
+  },
+  {
+    "id": 66,
+    "url": "https://www.tvmaze.com/shows/66/the-big-bang-theory",
+    "name": "The Big Bang Theory",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2007-09-24",
+    "ended": "2019-05-16",
+    "officialSite": "http://www.cbs.com/shows/big_bang_theory/",
+    "schedule": {
+      "time": "20:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 7.9
+    },
+    "weight": 98,
+    "network": {
+      "id": 2,
+      "name": "CBS",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.cbs.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 8511,
+      "thetvdb": 80379,
+      "imdb": "tt0898266"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/173/433868.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/173/433868.jpg"
+    },
+    "summary": "<p><b>The Big Bang Theory</b> is a comedy about brilliant physicists, Leonard and Sheldon, who are the kind of \"beautiful minds\" that understand how the universe works. But none of that genius helps them interact with people, especially women. All this begins to change when a free-spirited beauty named Penny moves in next door. Sheldon, Leonard's roommate, is quite content spending his nights playing Klingon Boggle with their socially dysfunctional friends, fellow Cal Tech scientists Wolowitz and Koothrappali. However, Leonard sees in Penny a whole new universe of possibilities... including love.</p>",
+    "updated": 1669758304,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/66"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1646220"
+      }
+    }
+  },
+
+  {
+    "id": 848,
+    "url": "https://www.tvmaze.com/shows/848/alf",
+    "name": "ALF",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Family", "Science-Fiction"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "1986-09-22",
+    "ended": "1996-02-17",
+    "officialSite": null,
+    "schedule": {
+      "time": "",
+      "days": ["Saturday"]
+    },
+    "rating": {
+      "average": 7.6
+    },
+    "weight": 95,
+    "network": {
+      "id": 1,
+      "name": "NBC",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.nbc.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 2532,
+      "thetvdb": 78020,
+      "imdb": "tt0090390"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/6/15848.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/6/15848.jpg"
+    },
+    "summary": "<p>One starry night in 1986, the Tanner family get an unexpected houseguest - a furry, four-foot-high Alien Life Form they call <b>ALF</b>, who quickly becomes part of the family.</p>",
+    "updated": 1671715372,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/848"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/79038"
+      }
+    }
+  },
+  {
+    "id": 171,
+    "url": "https://www.tvmaze.com/shows/171/how-i-met-your-mother",
+    "name": "How I Met Your Mother",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Drama", "Comedy", "Romance"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2005-09-19",
+    "ended": "2014-03-31",
+    "officialSite": null,
+    "schedule": {
+      "time": "20:00",
+      "days": ["Monday"]
+    },
+    "rating": {
+      "average": 7.8
+    },
+    "weight": 96,
+    "network": {
+      "id": 2,
+      "name": "CBS",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": "https://www.cbs.com/"
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 3918,
+      "thetvdb": 75760,
+      "imdb": "tt0460649"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/0/2451.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/0/2451.jpg"
+    },
+    "summary": "<p><b>How I Met Your Mother</b> is a comedy about Ted and how he fell in love. It all starts when Ted's best friend, Marshall drops the bombshell that he's going to propose to his long-time girlfriend, Lilya kindergarten teacher. At that moment, Ted realizes that he had better get a move on if he too hopes to find true love. Helping him in his quest is Barney a friend with endless, sometimes outrageous opinions, a penchant for suits and a foolproof way to meet women. When Ted meets Robin he's sure it's love at first sight, but destiny may have something else in store.</p>",
+    "updated": 1687578455,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/171"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/12492"
+      }
+    }
+  },
+  {
+    "id": 302,
+    "url": "https://www.tvmaze.com/shows/302/trailer-park-boys",
+    "name": "Trailer Park Boys",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Comedy", "Crime"],
+    "status": "Ended",
+    "runtime": null,
+    "averageRuntime": 25,
+    "premiered": "2001-04-22",
+    "ended": "2018-03-30",
+    "officialSite": "https://www.netflix.com/title/70153385",
+    "schedule": {
+      "time": "",
+      "days": []
+    },
+    "rating": {
+      "average": 7.7
+    },
+    "weight": 95,
+    "network": null,
+    "webChannel": {
+      "id": 1,
+      "name": "Netflix",
+      "country": null,
+      "officialSite": "https://www.netflix.com/"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 6408,
+      "thetvdb": 70566,
+      "imdb": "tt0290988"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/2/5013.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/2/5013.jpg"
+    },
+    "summary": "<p>Follow the booze-fueled misadventures of three longtime pals and petty serial criminals who run scams from their Nova Scotia trailer park.</p>",
+    "updated": 1689988540,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/302"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1428618"
+      }
+    }
+  },
+  {
+    "id": 184,
+    "url": "https://www.tvmaze.com/shows/184/bojack-horseman",
+    "name": "BoJack Horseman",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Drama", "Comedy"],
+    "status": "Ended",
+    "runtime": null,
+    "averageRuntime": 26,
+    "premiered": "2014-08-22",
+    "ended": "2020-01-31",
+    "officialSite": "https://www.netflix.com/title/70300800",
+    "schedule": {
+      "time": "",
+      "days": []
+    },
+    "rating": {
+      "average": 7.9
+    },
+    "weight": 90,
+    "network": null,
+    "webChannel": {
+      "id": 1,
+      "name": "Netflix",
+      "country": null,
+      "officialSite": "https://www.netflix.com/"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 39470,
+      "thetvdb": 282254,
+      "imdb": "tt3398228"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/405/1012627.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/405/1012627.jpg"
+    },
+    "summary": "<p>Meet the most beloved sitcom horse of the '90s, 20 years later. He's a curmudgeon with a heart of... not quite gold... but something like gold. Copper?</p>",
+    "updated": 1655200249,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/184"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/1722488"
+      }
+    }
+  },
+  {
+    "id": 61092,
+    "url": "https://www.tvmaze.com/shows/61092/kung-fu-panda-the-dragon-knight",
+    "name": "Kung Fu Panda: The Dragon Knight",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Children"],
+    "status": "Running",
+    "runtime": null,
+    "averageRuntime": 25,
+    "premiered": "2022-07-14",
+    "ended": null,
+    "officialSite": "https://www.netflix.com/gb/title/81227574/",
+    "schedule": {
+      "time": "",
+      "days": []
+    },
+    "rating": {
+      "average": 7.4
+    },
+    "weight": 92,
+    "network": null,
+    "webChannel": {
+      "id": 1,
+      "name": "Netflix",
+      "country": null,
+      "officialSite": "https://www.netflix.com/"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": null,
+      "imdb": "tt18783984"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/415/1039360.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/415/1039360.jpg"
+    },
+    "summary": "<p>In this animated kids series, playful Po pairs with a no-nonsense English knight on an epic quest to find four powerful weapons and save the world.</p>",
+    "updated": 1692210720,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/61092"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2468276"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/2612706"
+      }
+    }
+  },
+  {
+    "id": 36673,
+    "url": "https://www.tvmaze.com/shows/36673/after-life",
+    "name": "After Life",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Drama", "Comedy"],
+    "status": "Ended",
+    "runtime": null,
+    "averageRuntime": 28,
+    "premiered": "2019-03-08",
+    "ended": "2022-01-14",
+    "officialSite": "https://netflix.com/title/80998491",
+    "schedule": {
+      "time": "",
+      "days": []
+    },
+    "rating": {
+      "average": 7.9
+    },
+    "weight": 96,
+    "network": null,
+    "webChannel": {
+      "id": 1,
+      "name": "Netflix",
+      "country": null,
+      "officialSite": "https://www.netflix.com/"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 347507,
+      "imdb": "tt8398600"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/383/958692.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/383/958692.jpg"
+    },
+    "summary": "<p><b>After Life</b> centers on Tony, who had a perfect life. But after his wife Lisa suddenly dies, Tony changes. After contemplating taking his own life, he decides instead to live long enough to punish the world by saying and doing whatever he likes from now on. He thinks it's like a Super Power — not caring about himself or anyone else — but it turns out to be tricky when everyone is trying to save the nice guy they used to know.</p>",
+    "updated": 1693104569,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/36673"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2238786"
+      }
+    }
+  },
+  {
+    "id": 342,
+    "url": "https://www.tvmaze.com/shows/342/louie",
+    "name": "Louie",
+    "type": "Scripted",
+    "language": "English",
+    "genres": ["Drama", "Comedy"],
+    "status": "Ended",
+    "runtime": 30,
+    "averageRuntime": 30,
+    "premiered": "2010-06-29",
+    "ended": "2015-05-28",
+    "officialSite": "http://www.fxnetworks.com/louie/",
+    "schedule": {
+      "time": "22:00",
+      "days": ["Thursday"]
+    },
+    "rating": {
+      "average": 7.9
+    },
+    "weight": 94,
+    "network": {
+      "id": 13,
+      "name": "FX",
+      "country": {
+        "name": "United States",
+        "code": "US",
+        "timezone": "America/New_York"
+      },
+      "officialSite": null
+    },
+    "webChannel": null,
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": 24504,
+      "thetvdb": 155201,
+      "imdb": "tt1492966"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/2/5334.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/2/5334.jpg"
+    },
+    "summary": "<p><b>Louie</b> is a comedy filtered through the observational humor of Louis C.K. Each episode puts a spotlight on Louis' hectic life as a successful stand-up comedian and newly single father raising his two daughters. The single-camera comedy is a mix of Louis C.K.'s stand-up comedy and scripted short films.</p>",
+    "updated": 1623042577,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/342"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/154057"
+      }
+    }
+  },
+  {
+    "id": 52351,
+    "url": "https://www.tvmaze.com/shows/52351/i-am-groot",
+    "name": "I Am Groot",
+    "type": "Animation",
+    "language": "English",
+    "genres": ["Comedy", "Adventure", "Science-Fiction"],
+    "status": "Running",
+    "runtime": null,
+    "averageRuntime": 4,
+    "premiered": "2022-08-10",
+    "ended": null,
+    "officialSite": "https://disneyplusoriginals.disney.com/show/i-am-groot",
+    "schedule": {
+      "time": "",
+      "days": []
+    },
+    "rating": {
+      "average": 6.9
+    },
+    "weight": 99,
+    "network": null,
+    "webChannel": {
+      "id": 287,
+      "name": "Disney+",
+      "country": null,
+      "officialSite": "https://www.disneyplus.com/"
+    },
+    "dvdCountry": null,
+    "externals": {
+      "tvrage": null,
+      "thetvdb": 393201,
+      "imdb": "tt13623148"
+    },
+    "image": {
+      "medium": "https://static.tvmaze.com/uploads/images/medium_portrait/471/1179713.jpg",
+      "original": "https://static.tvmaze.com/uploads/images/original_untouched/471/1179713.jpg"
+    },
+    "summary": "<p><b>I Am Groot</b> is a collection of five original shorts starring Baby Groot, everyone's favorite little tree, and will feature several new and unusual characters. There's no guarding the galaxy from this mischievous toddler! So get ready as Baby Groot takes center stage in his very own series, exploring his glory days growing up, and getting into trouble, among the stars.</p>",
+    "updated": 1692221180,
+    "_links": {
+      "self": {
+        "href": "https://api.tvmaze.com/shows/52351"
+      },
+      "previousepisode": {
+        "href": "https://api.tvmaze.com/episodes/2341081"
+      },
+      "nextepisode": {
+        "href": "https://api.tvmaze.com/episodes/2615900"
+      }
+    }
+  }
+]
