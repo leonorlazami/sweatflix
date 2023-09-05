@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import shows from "../shows.json";
+import { Link } from "react-router-dom";
 
 const Details = ({ selectedShow, handleShowClick }) => {
   const [showDetails, setShowDetails] = useState({});
-
+  console.log(showDetails);
   useEffect(() => {
     console.log("Selected Show ID:", selectedShow);
 
@@ -42,12 +43,6 @@ const Details = ({ selectedShow, handleShowClick }) => {
 
   return (
     <>
-      <button
-        onClick={() => handleShowClick((prev) => null)}
-        className="custom-button"
-      >
-        Go back
-      </button>
       <div className="flex font-mulish mt-20 w-full md:w-auto md:ml-10 gap-4">
         {showDetails.image && (
           <div className=" flex flex-col mr-4 items-center justify-center">
@@ -121,6 +116,10 @@ const Details = ({ selectedShow, handleShowClick }) => {
               <span className="font-bold mr-2">Premiered: </span>
               {showDetails.premiered ?? "Information not available"}
             </p>
+            <p className="text-md">
+              <span className="font-bold mr-2">Rating: </span>
+              {showDetails.rating?.average ?? "Information not available"}
+            </p>
           </div>
         </div>
       </div>
@@ -159,6 +158,10 @@ const Details = ({ selectedShow, handleShowClick }) => {
           <p className="text-md">
             <span className="font-bold mr-2">Premiered: </span>
             {showDetails.premiered ?? "Information not available"}
+          </p>
+          <p className="text-md">
+            <span className="font-bold mr-2">Rating: </span>
+            {showDetails.rating?.average ?? "Information not available"}
           </p>
         </div>
       </div>

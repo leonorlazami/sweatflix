@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
+import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
+import Profile from "./components/Profile";
 import { debounce } from 'lodash';
 import tempShows from './mock.json';
-
-
 
 import TVShowCarousel from "./components/TVShowCarousel";
 import Details from "./components/Details";
@@ -18,26 +18,31 @@ function App() {
   const maxPages = movies.pages
   const [selectedShow, setSelectedShow] = useState(null);
 
+  function resetState() {
+    setQuery(null)
+    setShowSearch(false)
+    setMovies(tempShows)
+    setAbortController(null)
+    setSelectedShow(null)
+  }
+
   const handleShowClick = (show) => {
     setSelectedShow(show);
   };
 
-
   function nextPage() {
     if (page >= maxPages) return
     setPage(page => page + 1)
-
   }
+
   function prevPage() {
     if (page === 1) return
-
     setPage(page => page - 1)
   }
+
   function handleShowSearch() {
     setShowSearch((prev) => !prev);
   }
-
-
 
   const debouncedHandleQuery = debounce((value) => {
     setQuery(value);
@@ -46,14 +51,12 @@ function App() {
   function handleQuery(e) {
     const value = e.target.value;
     debouncedHandleQuery(value);
-
   }
 
   useEffect(() => {
     if (!query || query === "") {
       return;
     }
-
 
     const newAbortController = new AbortController();
     setAbortController(newAbortController);
@@ -85,18 +88,15 @@ function App() {
                 name: show.network?.name || null,
                 officialSite: show.network?.officialSite || null,
               },
-
               image: {
                 medium: show.image?.medium || null,
                 original: show.image?.original || null
               }
-
             };
           });
 
           setMovies(movieList);
         }
-
       } catch (error) {
         if (error.name !== "AbortError") {
           console.error("Error fetching movies:", error);
@@ -106,44 +106,47 @@ function App() {
 
     fetchMovies();
 
-
     return function () {
       if (newAbortController) {
         newAbortController.abort();
       }
     };
   }, [query, page]);
-  console.log(movies)
 
 
+  useEffect(() => {
+    const handlePopstate = (event) => {
+
+      if (window.location.pathname === "/") {
+        resetState();
+      }
+    };
+
+
+    window.addEventListener("popstate", handlePopstate);
+
+
+    return () => {
+      window.removeEventListener("popstate", handlePopstate);
+    };
+  }, []);
 
   return (
-
-    selectedShow ? <div>
+    <BrowserRouter>
       <Navbar
         query={query}
         handleQuery={handleQuery}
         showSearch={showSearch}
-        handleShowSearch={handleShowSearch} />
-      <Details selectedShow={selectedShow} handleShowClick={handleShowClick} />
-
-
-    </div> : (
-      <div>
-        <Navbar
-          query={query}
-          handleQuery={handleQuery}
-          showSearch={showSearch}
-          handleShowSearch={handleShowSearch} />
-
-        <TVShowCarousel
-          shows={movies}
-          handleShowClick={handleShowClick} />
-
-      </div>
-    )
+        handleShowSearch={handleShowSearch}
+        selectedShow={selectedShow}
+      />
+      <Routes>
+        <Route path="/" element={<TVShowCarousel shows={movies} handleShowClick={handleShowClick} />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/details" element={<Details selectedShow={selectedShow} handleShowClick={handleShowClick} />} />
+      </Routes>
+    </BrowserRouter>
   );
-
 }
 
 export default App;
