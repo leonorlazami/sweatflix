@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Profile from "./components/Profile";
@@ -134,7 +134,7 @@ function App() {
       />
       <Routes>
         <Route path="/" element={<TVShowCarousel shows={movies} handleShowClick={handleShowClick} handleShowSearch={handleShowSearch} setShowSearch={setShowSearch} />} />
-        <Route path="/profile" element={<Profile shows={movies} />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/details/:id" element={<Details selectedShow={selectedShow} handleShowClick={handleShowClick} />} />
       </Routes>
     </BrowserRouter>
