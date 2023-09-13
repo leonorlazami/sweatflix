@@ -3,7 +3,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Link } from "react-router-dom";
 
-const Slider = ({ shows, filteredShows, handleShowClick }) => {
+const Slider = ({ shows, filteredShows, handleShowClick, setShowSearch }) => {
   const tvShows = filteredShows.length > 0 ? filteredShows : shows;
 
   return (
@@ -13,8 +13,11 @@ const Slider = ({ shows, filteredShows, handleShowClick }) => {
           {tvShows.map((tvShow) => (
             <SwiperSlide key={tvShow.id} className="swiper-slide-container">
               <Link
-                to="/details"
-                onClick={() => handleShowClick(tvShow.id)}
+                to={`/details/${tvShow.id}`}
+                onClick={() => {
+                  handleShowClick(tvShow.id);
+                  setShowSearch(false);
+                }}
                 className="custom-link"
               >
                 <img

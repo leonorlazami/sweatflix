@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { useLoaderData } from "react-router-dom";
 
 const Profile = () => {
+  const [favoriteShows, setFavoriteShows] = useState([]);
+
+  useEffect(() => {
+    const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+    setFavoriteShows(favorites);
+  }, []);
+
+  useEffect(() => {}, []);
+
   return (
     <div>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias quod
-      cumque placeat quis laudantium, sed adipisci quam dicta, odio vel fugit
-      ipsum autem aspernatur voluptatem velit sunt. Natus, quaerat asperiores?
+      <h2>Your Favorite Shows</h2>
+      <ul>
+        {favoriteShows.map((showId) => (
+          <li key={showId}>{showId}</li>
+        ))}
+      </ul>
     </div>
   );
 };

@@ -11,6 +11,7 @@ const Navbar = ({
   handleQuery,
   handleShowSearch,
   selectedShow,
+  setShowSearch,
 }) => {
   const gradientColor =
     "bg-gradient-to-b from-red-500 to-red-800  bg-clip-text text-transparent";
@@ -24,22 +25,25 @@ const Navbar = ({
             alt=""
             className="w-8 md:w-12 md:absolute md:left-3 md:top-10"
           />
-
-          <h1
-            className={`${gradientColor} text-3xl md:text-7xl tracking-wider md:tracking-widest md:ml-16`}
-          >
-            Sweatflix
-          </h1>
+          <Link to="/">
+            <h1
+              className={`${gradientColor} text-2xl md:text-7xl tracking-wider md:tracking-widest md:ml-16`}
+            >
+              Sweatflix
+            </h1>
+          </Link>
         </div>
 
         <div className="flex w-full justify-end items-center gap-3 md:hidden mr-4">
-          {showSearch && !selectedShow ? (
-            <input
-              type="text"
-              placeholder="Search..."
-              className="text-center h-4/5 px-0 border-none outline-none py-1 overflow-hidden w-24"
-              onChange={handleQuery}
-            />
+          {showSearch ? (
+            <div className="absolute top-16 ">
+              <input
+                type="text"
+                placeholder="Search..."
+                className="text-center h-4/5 px-0 border-none outline-none py-1 overflow-hidden w-18"
+                onChange={handleQuery}
+              />
+            </div>
           ) : (
             <HiOutlineSearch
               size={25}
@@ -49,15 +53,26 @@ const Navbar = ({
           )}
 
           <Link to="/profile">
-            <CgProfile size={25} color="white" />
+            <CgProfile
+              size={25}
+              color="white"
+              onClick={() => setShowSearch(false)}
+            />
           </Link>
           <Link to="/">
-            <AiOutlineHome size={25} color="white" />
+            <AiOutlineHome
+              size={25}
+              color="white"
+              onClick={() => setShowSearch(false)}
+            />
           </Link>
         </div>
-        <div className="md:flex md:w-full md:gap-10 md:justify-center md:items-center md:text-2xl hidden">
+        <div className="md:flex md:w-full md:gap-10 md:justify-end md:items-center md:text-2xl md:mr-10 hidden">
+          <Link to="/">
+            <button className="text-white">Home</button>
+          </Link>
           <Link to="/profile">
-            <button className="text-white">Profile</button>
+            <button className="text-white">Favorites</button>
           </Link>
           <div>
             <form action="#" className="flex" name="search">

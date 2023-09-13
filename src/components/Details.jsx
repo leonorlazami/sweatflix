@@ -1,26 +1,28 @@
 import React, { useEffect, useState } from "react";
 import shows from "../shows.json";
-import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const Details = ({ selectedShow, handleShowClick }) => {
   const [showDetails, setShowDetails] = useState({});
-  console.log(showDetails);
-  useEffect(() => {
-    console.log("Selected Show ID:", selectedShow);
+  const [isFav, setIsFav] = useState(false);
+  const [isClosed, setIsClosed] = useState(false);
+  const [isNotificationVisible, setIsNotificationVisible] = useState(false);
 
-    const existingShow = shows.find((show) => show.id === selectedShow);
-    console.log("Existing Show:", existingShow); // Debugging
+  const handleSvgClick = () => {
+    setIsNotificationVisible(false);
+  };
+
+  const { id } = useParams();
+  useEffect(() => {
+    const existingShow = shows.find((show) => show.id === id);
 
     if (existingShow) {
       setShowDetails(existingShow);
     } else {
       async function fetchShowDetails() {
         try {
-          const res = await fetch(
-            `https://api.tvmaze.com/shows/${selectedShow}`
-          );
+          const res = await fetch(`https://api.tvmaze.com/shows/${id}`);
           const data = await res.json();
-          console.log("Fetched Data:", data); // Debugging
 
           setShowDetails(data);
         } catch (err) {
@@ -29,7 +31,26 @@ const Details = ({ selectedShow, handleShowClick }) => {
       }
       fetchShowDetails();
     }
-  }, [selectedShow]);
+  }, [id]);
+
+  useEffect(() => {
+    const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+    setIsFav(favorites.includes(id));
+  }, [id]);
+
+  const handleToggleFavorite = () => {
+    setIsNotificationVisible(true);
+    const favorites = JSON.parse(localStorage.getItem("favorites")) || [];
+    if (favorites.includes(id)) {
+      const updatedFavorites = favorites.filter((showId) => showId !== id);
+      localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
+      setIsFav(false);
+    } else {
+      const updatedFavorites = [...favorites, id];
+      localStorage.setItem("favorites", JSON.stringify(updatedFavorites));
+      setIsFav(true);
+    }
+  };
 
   const formatGenres = (genres) => {
     if (genres.length === 0) {
@@ -43,6 +64,42 @@ const Details = ({ selectedShow, handleShowClick }) => {
 
   return (
     <>
+      <div>
+        {isNotificationVisible && (
+          <div
+            className={`${
+              isFav
+                ? "bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative mt-2 mx-1"
+                : "bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mt-2 mx-1"
+            }`}
+            role="alert"
+          >
+            <strong className="font-bold">{showDetails.name}</strong>
+            <span className="block sm:inline">
+              {isFav
+                ? `${showDetails.name} has been added to favorites.`
+                : `${showDetails.name} has been removed from favorites.`}
+            </span>
+            <span className="absolute top-0 bottom-0 right-0 px-4 py-3">
+              <svg
+                className={`${
+                  isFav
+                    ? "fill-current h-6 w-6 text-green-500"
+                    : "fill-current h-6 w-6 text-red-500"
+                }`}
+                role="button"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                onClick={handleSvgClick}
+              >
+                <title>Close</title>
+                <path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z" />
+              </svg>
+            </span>
+          </div>
+        )}
+      </div>
+
       <div className="flex font-mulish mt-20 w-full md:w-auto md:ml-10 gap-4">
         {showDetails.image && (
           <div className=" flex flex-col mr-4 items-center justify-center">
@@ -51,14 +108,17 @@ const Details = ({ selectedShow, handleShowClick }) => {
               alt=""
               className="w-[250px] h-60 mr-2 md:h-full md:w-full ml-5 rounded-md mb-2"
             />
-            <button className="custom-button flex items-center justify-center w-[80%] h-auto">
+            <button
+              className="custom-button flex items-center justify-center w-[80%] h-auto"
+              onClick={handleToggleFavorite}
+            >
               <svg
                 className="text-black w-7 h-7"
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"
                 height="24"
                 viewBox="0 0 24 24"
-                fill="none"
+                fill={isFav ? "white" : "none"}
                 stroke="currentColor"
                 strokeWidth="2"
                 strokeLinecap="round"
@@ -123,7 +183,6 @@ const Details = ({ selectedShow, handleShowClick }) => {
           </div>
         </div>
       </div>
-
       <div className="font-mulish flex flex-col items-start md:hidden bg-[#DED7BF]  h-[13rem] border-1 border-[#616155] shadow-md gap-2 mt-10 w-full  pt-2 my-4 pl-4">
         <h3 className="text-2xl mb-2">Show info</h3>
         <div className="font-normal">

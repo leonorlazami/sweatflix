@@ -14,8 +14,6 @@ function App() {
   const [showSearch, setShowSearch] = useState(false);
   const [movies, setMovies] = useState(tempShows);
   const [abortController, setAbortController] = useState(null);
-  const [page, setPage] = useState(1)
-  const maxPages = movies.pages
   const [selectedShow, setSelectedShow] = useState(null);
 
   function resetState() {
@@ -28,17 +26,10 @@ function App() {
 
   const handleShowClick = (show) => {
     setSelectedShow(show);
+    setShowSearch((prev) => !prev);
   };
 
-  function nextPage() {
-    if (page >= maxPages) return
-    setPage(page => page + 1)
-  }
 
-  function prevPage() {
-    if (page === 1) return
-    setPage(page => page - 1)
-  }
 
   function handleShowSearch() {
     setShowSearch((prev) => !prev);
@@ -111,7 +102,7 @@ function App() {
         newAbortController.abort();
       }
     };
-  }, [query, page]);
+  }, [query]);
 
 
   useEffect(() => {
@@ -139,14 +130,16 @@ function App() {
         showSearch={showSearch}
         handleShowSearch={handleShowSearch}
         selectedShow={selectedShow}
+        setShowSearch={setShowSearch}
       />
       <Routes>
-        <Route path="/" element={<TVShowCarousel shows={movies} handleShowClick={handleShowClick} />} />
-        <Route path="/profile" element={<Profile />} />
-        <Route path="/details" element={<Details selectedShow={selectedShow} handleShowClick={handleShowClick} />} />
+        <Route path="/" element={<TVShowCarousel shows={movies} handleShowClick={handleShowClick} handleShowSearch={handleShowSearch} setShowSearch={setShowSearch} />} />
+        <Route path="/profile" element={<Profile shows={movies} />} />
+        <Route path="/details/:id" element={<Details selectedShow={selectedShow} handleShowClick={handleShowClick} />} />
       </Routes>
     </BrowserRouter>
   );
 }
 
 export default App;
+

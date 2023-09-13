@@ -3,7 +3,7 @@ import Search from "./Search";
 import Slider from "./Slider";
 import mock from "../shows.json";
 
-const TVShowCarousel = ({ shows, handleShowClick }) => {
+const TVShowCarousel = ({ shows, handleShowClick, setShowSearch }) => {
   const [genre, setGenre] = useState("Comedy");
   const [runTime, setRunTime] = useState(30);
   const [rating, setRating] = useState(6);
@@ -42,6 +42,7 @@ const TVShowCarousel = ({ shows, handleShowClick }) => {
         shows={shows}
         filteredShows={filteredShows}
         handleShowClick={handleShowClick}
+        setShowSearch={setShowSearch}
       />
     </div>
   );
